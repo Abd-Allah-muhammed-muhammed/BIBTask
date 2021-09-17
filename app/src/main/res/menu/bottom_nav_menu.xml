@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"
+        app:cnb_backgroundColor="@color/purple_500"
+        app:cnb_iconColor="@color/white"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/white" />
+
+    <item
+        android:id="@+id/navigation_service"
+        android:enabled="true"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/service"
+        app:cnb_backgroundColor="@color/purple_500"
+        app:cnb_iconColor="@color/white"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/white" />
+
+    <item
+        android:id="@+id/navigation_medical"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_medical_services_24"
+        android:title="@string/medical"
+        app:cnb_backgroundColor="@color/purple_500"
+        app:cnb_iconColor="@color/white"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/white" />
+
+
+
+
+</menu>

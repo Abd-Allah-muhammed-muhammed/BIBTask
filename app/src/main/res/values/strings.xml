@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BIB Task</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="service">Service</string>
+    <string name="medical">Medical</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="short_desc">Digital Insurance Mobile App</string>
+    <string name="now_you_can_get_etc">Now you can get Quotations For</string>
+    <string name="meet_our_pref">Meet Our Preferred Insurers</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="find_service">Find Service</string>
+    <string name="find">Find</string>
+    <string name="select_company">select company</string>
+    <string name="select_media">select Media Network</string>
+    <string name="select_governorate">select Governorate</string>
+    <string name="select_city">select city</string>
+    <string name="select_provider_type">select provider type</string>
+    <string name="done">done</string>
+</resources>

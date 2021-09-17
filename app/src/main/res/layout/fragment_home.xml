@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/slider_logo"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_50sdp"
+                app:tint="@color/blue" />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/short_desc"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/now_you_can_get_etc"
+                android:layout_marginTop="@dimen/_70sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <RelativeLayout
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <androidx.recyclerview.widget.RecyclerView
+
+                    android:id="@+id/rc_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    tools:itemCount="1" />
+
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/meet_our_pref"
+                android:layout_marginTop="@dimen/_70sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <com.denzcoskun.imageslider.ImageSlider
+                app:iss_error_image="@drawable/logo"
+                app:iss_placeholder="@drawable/logo"
+
+                android:background="@color/white"
+                app:iss_selected_dot="@color/white"
+                app:iss_unselected_dot="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_gravity="center"
+                android:id="@+id/image_slider"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                app:iss_auto_cycle="true"
+                app:iss_period="1000"
+                app:iss_delay="0"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
